@@ -11,14 +11,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 WEREAD_URL = "https://weread.qq.com/"
-WEREAD_NOTEBOOKS_URL = "https://i.weread.qq.com/user/notebooks"
-WEREAD_BOOKMARKLIST_URL = "https://i.weread.qq.com/book/bookmarklist"
-WEREAD_CHAPTER_INFO = "https://i.weread.qq.com/book/chapterInfos"
-WEREAD_READ_INFO_URL = "https://i.weread.qq.com/book/readinfo"
-WEREAD_REVIEW_LIST_URL = "https://i.weread.qq.com/review/list"
-WEREAD_BOOK_INFO = "https://i.weread.qq.com/book/info"
-WEREAD_READDATA_DETAIL = "https://i.weread.qq.com/readdata/detail"
-WEREAD_HISTORY_URL = "https://i.weread.qq.com/readdata/summary?synckey=0"
+WEREAD_NOTEBOOKS_URL = "https://weread.qq.com/user/notebooks"
+WEREAD_BOOKMARKLIST_URL = "https://weread.qq.com/book/bookmarklist"
+WEREAD_CHAPTER_INFO = "https://weread.qq.com/book/chapterInfos"
+WEREAD_READ_INFO_URL = "https://weread.qq.com/book/readinfo"
+WEREAD_REVIEW_LIST_URL = "https://weread.qq.com/review/list"
+WEREAD_BOOK_INFO = "https://weread.qq.com/book/info"
+WEREAD_READDATA_DETAIL = "https://weread.qq.com/readdata/detail"
+WEREAD_HISTORY_URL = "https://weread.qq.com/readdata/summary?synckey=0"
 
 
 class WeReadApi:
